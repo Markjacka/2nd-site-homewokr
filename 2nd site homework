@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Educational Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <h1>Welcome to Your Educational Website</h1>
+        <p>Explore a world of knowledge with our courses and tutorials.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Featured Courses</h2>
+        <div class="course" id="course1">
+            <h3>Web Development</h3>
+            <p>Learn to build modern and responsive websites.</p>
+        </div>
+        <div class="course" id="course2">
+            <h3>Data Science</h3>
+            <p>Discover the power of data and analytics.</p>
+        </div>
+        <div class="course" id="course3">
+            <h3>Programming Basics</h3>
+            <p>Master the fundamentals of programming languages.</p>
+        </div>
+    </section>
+
+    <section id="tutorials">
+        <h2>Latest Tutorials</h2>
+        <div class="tutorial" id="tutorial1">
+            <h3>HTML Basics</h3>
+            <p>Learn the essentials of HTML for web development.</p>
+        </div>
+        <div class="tutorial" id="tutorial2">
+            <h3>CSS Styling</h3>
+            <p>Explore the world of CSS for beautiful web design.</p>
+        </div>
+        <div class="tutorial" id="tutorial3">
+            <h3>JavaScript Fundamentals</h3>
+            <p>Master the basics of JavaScript for interactive web pages.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your Educational Website is dedicated to providing high-quality education in various fields. Our mission is to empower learners around the globe through accessible and engaging content.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please email us at: <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Educational Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
